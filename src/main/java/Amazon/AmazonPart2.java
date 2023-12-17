@@ -76,33 +76,3 @@ public class AmazonPart2 {
         driver.quit();
     }
 }
-    /*public AmazonPart2() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\bezzi\\OneDrive\\Desktop\\Software testing ass 2\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
-        driver = new ChromeDriver();
-    }
-
-    public void openAmazon() {
-        driver.get("https://www.amazon.com/");
-    }
-
-    public void searchForProduct(String searchTerm) {
-        WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
-        searchBox.sendKeys(searchTerm);
-        WebElement searchButton = driver.findElement(By.id("nav-search-submit-button"));
-        searchButton.click();
-    }
-
-    public void clickOnFirstProduct() {
-        WebElement clickingOnFirstProduct = driver.findElement(By.cssSelector(".s-title-instructions-style"));
-        clickingOnFirstProduct.click();
-    }
-
-    public void addToCart() {
-        WebElement addToCartButton = driver.findElement(By.id("add-to-cart-button"));
-        addToCartButton.click();
-    }
-
-    public void quit() {
-        driver.quit();
-    }
-}*/
