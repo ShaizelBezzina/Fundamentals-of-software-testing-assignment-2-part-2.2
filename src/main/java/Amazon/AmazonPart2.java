@@ -42,7 +42,7 @@ public class AmazonPart2 {
         WebElement enteringPassword = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
 
         // Entering password
-        enteringPassword.sendKeys("bezzina2003");
+        enteringPassword.sendKeys("Password");
 
         // Clicking on Sign in
         WebElement clickingOnSignIn = driver.findElement(By.id("signInSubmit"));
